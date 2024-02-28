@@ -1,0 +1,138 @@
+.primeirobloco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+#hero {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.segundobloco {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 20px;
+
+}
+h1 {
+    margin: 0;
+    padding: 0;
+}
+#maintitle {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-style: none;
+    margin-bottom: 2px;
+}
+#titlespan {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(27, 27, 27, 0.6);
+    margin-bottom: 16px;
+}
+.containersegundobloco {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;   
+    overflow: auto;
+    gap: 16px;
+}
+#primeirathumb {
+    width: max-content;
+    height: auto;
+}
+#coursetitle {
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+}
+.username {
+    display: flex;
+    gap: 4px;
+    padding: 4px 0px;
+}
+#description {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(27, 27, 27, 0.9);
+}
+.startcontainer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: start;
+    padding: 4px 0px;
+    gap: 3px;
+}
+#valuespan {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: rgba(27, 27, 27, 0.6);
+}
+.value {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 0px 0px 0px;
+}
+#h4value {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: black;
+    margin: 0;
+}
+#pastvalue {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.segundomain {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0px 24px 16px;
+}
+.h1sm {
+    padding: 0px 0px 16px 4px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.containersm {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    gap: 16px;
+}
+#cardsm {
+    width: auto;
+    height: auto;
+}
+#psm {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: black;
+}
+#spansm {
+    font-size: 0.9rem;
+    font-weight: 200;
+    color: rgba(27, 27, 27, 0.6);
+}
+.main3{ 
+    padding-top: 24px;
+}
+.boximg {
+    padding: 0px 20px 58px 20px;
+    width: 100%;
+    height: 100%;
+}
+#imgm3 {
+    width: 93%;
+}
